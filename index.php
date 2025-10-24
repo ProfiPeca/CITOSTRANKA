@@ -2,7 +2,7 @@
 // index.php - Jedno-souborový jednoduchý blog s MongoDB (PHP MongoDB Driver required)
 
 // ===== Konfigurace =====
-$mongoUri = 'mongodb://127.0.0.1:27017'; // pokud je MongoDB na hostu
+$mongoUri = 'mongodb://localhost:27017'; // pokud je MongoDB na hostu
 $dbName = 'blog';
 $collectionName = 'posts';
 
